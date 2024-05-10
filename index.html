@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/321840b817.js" crossorigin="anonymous"></script>
+    <title>Mi primera web</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-navbar">
+            <div class="navbar-icon">
+                <i class="fa-brands fa-galactic-republic fa-beat-fade"></i>
+            </div>
+            <nav class="navbar container">
+                <input type="checkbox" id="check" /><label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#main-content">Reseña</a></li>
+                    <li><a href="#peliculas">Peliculas</a></li>
+                    <li><a href="#btn-generar">Frase</a></li>
+                    <li><a href="/mi_primera_web/fomulario/formulario.html#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <main id="main-content">
+        <section class="container container-about-me">
+            <div class="about-me">
+                <h2 class="about-me-h2">Acerca de mí</h2>
+                <p class="text1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                <p class="text2">Me llamo Darwin Alvarado, me gusta ver peliculas de ciencia ficción, jugar con amigos y aprender nuevos idiomas. 
+                <br>
+                Tengo un reto personal de aprender a programar, aprender este idioma tan potente y versatil; con el fin de crear
+                <br>
+                soluciones lógicas a problemas cotidianos a traves de la tecnología.
+                <br>
+                <br>
+                <br>
+                Como mi primera pagina, voy a citar las peliculas de unas de mis franquicias favoritas, la cual es la guerra de las
+                <br>
+                galaxias.</p>
+            </div>
+
+            <div class="about-personal-img">
+                <img src="img/vader.jpg" alt="imagen personal">
+            </div>            
+        </section>
+
+        <section class="section-img">
+            <img src="img/vader wp.jpg" alt="imagen carrusel">
+        </section>
+
+        <section id="peliculas" class="container section-blog">
+            <h2>Peliculas Favoritas</h2>
+
+            <div class="container-blog">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/sw1.jpg" alt="La amenaza fantasma">
+                        <div class="button-group-blog">
+                            <span><a target="_blank" href="https://www.google.com/search?q=star+wars+la+amenaza+fantasma&oq=star+wars+la+a&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyDQgBEC4YgwEYsQMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYOTIHCAQQLhiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPKgCCLACAQ&sourceid=chrome&ie=UTF-8"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                            <span><a target="_blank" href="https://www.mubis.es/titulos/star-wars-la-amenaza-fantasma-edicion-metalica-blu-ray"><i class="fa-solid fa-link"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>La amenaza fantasma</h3>
+                        <span>20 de agosto de 1999</span>
+                        <p>La República Galáctica está
+                            sumida en el caos. Los
+                            impuestos de las rutas
+                            comerciales a los sistemas
+                            estelares exteriores están en
+                            disputa.
+                            
+                            Esperando resolver el asunto
+                            con un bloqueo de poderosas
+                            naves de guerra, la codiciosa
+                            Federación de Comercio ha
+                            detenido todos los envíos al
+                            pequeño planeta de Naboo.
+                        
+                            Mientras el Congreso de la
+                            República debate
+                            interminablemente esta
+                            alarmante cadena de
+                            acontecimientos, el Canciller
+                            Supremo ha enviado en secreto
+                            a dos Caballeros Jedi,
+                            guardianes de la paz y la justicia
+                            en la galaxia, para resolver el
+                            conflicto....</p>
+                        <div class="btn-read-more">
+                            <a target="_blank" href="https://starwars.fandom.com/es/wiki/Star_Wars:_Episodio_I_La_Amenaza_Fantasma">Leer más</a>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/sw2.jpg" alt="La guerra de los clones">
+                        <div class="button-group-blog">
+                            <span><a target="_blank" href="https://www.google.com/search?q=star+wars+2+la+guerra+de+los+clones&sca_esv=1b97633427c5a4ec&sca_upv=1&sxsrf=ADLYWILCHBfnqY06wlJbsXOam7Z674H6CA%3A1714957799793&ei=5y04ZueGMMDt5OUP9IaNkAU&gs_ssp=eJzj4tDP1TdISSs3MGD0Ui4uSSxSKE8sKlYwUshJVEgvTS0qSlRISVXIyS9WSM7Jz0stBgBhEw-U&oq=star+wars+2+la+guerra+de+los+clones&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3N0YXIgd2FycyAyIGxhIGd1ZXJyYSBkZSBsb3MgY2xvbmVzKgIIADIFEC4YgAQyCBAAGAcYCBgeMgoQLhgHGAgYChgeMggQABgHGAgYHjIGEAAYCBgeMgYQABgIGB4yCBAAGIAEGKIEMggQABiABBiiBDIUEC4YgAQYlwUY3AQY3gQY4ATYAQNIgA9QoQNYuAVwAXgBkAEAmAFQoAGYAaoBATK4AQHIAQD4AQGYAgSgAr4EwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQLCAgoQIxiABBgnGIoFwgIIEC4YgAQY1ALCAggQLhgHGAoYHsICBRAAGIAEwgIXEC4YgAQY1AIYlwUY3AQY3gQY4ATYAQOYAwCIBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBSSBwUzLjQtMaAHih4&sclient=gws-wiz-serp"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                            <span><a target="_blank" href="https://www.mubis.es/titulos/star-wars-el-ataque-de-los-clones-edicion-metalica-blu-ray"><i class="fa-solid fa-link"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>La guerra de los clones</h3>
+                        <span>16 de mayo de 2002</span>
+                        <p>En el Senado Galáctico.
+                        reina la inquietud. Varios
+                        miles de sistemas solares
+                        han declarado su intención
+                        de abandonar la República.
+                        
+                        Este movimiento separatista,
+                        liderado por el misterioso
+                        Conde Dooku, ha provocado
+                        que al limitado número de
+                        Caballeros Jedi les resulte
+                        difícil mantener la paz y el
+                        orden en la galaxia.
+                        
+                        La senadora Amidala, la
+                        antigua reina de Naboo,
+                        regresa al Senado Galáctico
+                        para dar su voto en la crítica
+                        cuestión de crear un
+                        EJÉRCITO DE LA REPÚBLICA
+                        que ayude a los desbordados
+                        Jedi…</p>
+                        <div class="btn-read-more">
+                            <a target="_blank" href="https://starwars.fandom.com/es/wiki/Star_Wars:_Episodio_II_El_Ataque_de_los_Clones">Leer más</a> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/sw3.jpg" alt="La vengaza de los Sith">
+                        <div class="button-group-blog">
+                            <span><a target="_blank" href="https://www.google.com/search?q=star+wars+3+la+venganza+de+los+sith&sca_esv=1b97633427c5a4ec&sca_upv=1&sxsrf=ADLYWIIzCWdDw7NmOtpaidvwyRFLAl0lAg%3A1714957876947&ei=NC44ZsO8Ocew5OUPyPm-0A0&ved=0ahUKEwjDpr346_eFAxVHGLkGHci8D9oQ4dUDCA8&uact=5&oq=star+wars+3+la+venganza+de+los+sith&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3N0YXIgd2FycyAzIGxhIHZlbmdhbnphIGRlIGxvcyBzaXRoMgQQIxgnMgUQLhiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMggQABgWGB4YDzIGEAAYFhgeSI5KUOcFWP5HcAF4AZABAJgBaaAB6hSqAQQzMS4xuAEDyAEA-AEBmAIWoAKaDsICChAAGLADGNYEGEfCAgoQIxiABBgnGIoFwgINEC4YgAQYQxjUAhiKBcICCBAuGAcYChgewgIFEAAYgATCAhwQLhiABBhDGNQCGIoFGJcFGNwEGN4EGOAE2AEBwgIGEAAYCBgewgIIEAAYgAQYogSYAwCIBgGQBgi6BgYIARABGBSSBwIyMqAHsMYB&sclient=gws-wiz-serp"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                            <span><a target="_blank" href="https://www.mubis.es/titulos/star-wars-la-venganza-de-los-sith-blu-ray"><i class="fa-solid fa-link"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>La vengaza de los Sith</h3>
+                        <span>19 de mayo de 2005</span>
+                        <p>¡Guerra! La República se
+                        desmorona bajo los ataques del
+                        despiadado Lord Sith, el Conde
+                        Dooku. Hay héroes en ambos
+                        bandos. El mal está por doquier. 
+                        
+                        En una contundente jugada, el
+                        diabólico líder droide, el General
+                        Grievous, ha irrumpido en la
+                        capital de la República y ha
+                        secuestrado al Canciller
+                        Palpatine, líder del Senado 
+                        Galáctico.
+                        
+                        Mientras el ejército droide
+                        separatista trata de huir de la
+                        capital sitiada con su valioso
+                        rehén, dos Caballeros Jedi
+                        lideran una misión desesperada
+                        para rescatar al Canciller
+                        cautivo....</p>
+                        <div class="btn-read-more">
+                            <a target="_blank" href="https://starwars.fandom.com/es/wiki/Star_Wars:_Episodio_III_La_Venganza_de_los_Sith">Leer más</a>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/sw4.jpg" alt="Una nueva esperanza">
+                        <div class="button-group-blog">
+                            <span><a target="_blank" href="https://www.google.com/search?q=star+wars+4+una+nueva+esperanza&sca_esv=1b97633427c5a4ec&sca_upv=1&sxsrf=ADLYWIIGJnyej_aVjRkA0G4DVGe9CoNikg%3A1714957917233&ei=XS44ZqnyDZDz5OUPhueZgA4&oq=star+wars+4+u&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXN0YXIgd2FycyA0IHUqAggAMgoQIxiABBgnGIoFMgUQLhiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yFBAuGIAEGJcFGNwEGN4EGOAE2AEDSOcTULkFWN8LcAF4AZABAJgBV6AB9QGqAQEzuAEDyAEA-AEBmAIEoAKIAsICBxAjGLADGCfCAgoQABiwAxjWBBhHwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AECwgIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBAsICCxAuGIAEGLEDGIMBwgIEEAAYA8ICBRAAGIAEmAMAiAYBkAYQugYGCAEQARgJugYGCAIQARgIugYGCAMQARgUkgcBNKAHgB4&sclient=gws-wiz-serp"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                            <span><a target="_blank" href="https://www.mubis.es/titulos/star-wars-la-guerra-de-las-galaxias-edicion-metalica-blu-ray"><i class="fa-solid fa-link"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Una nueva esperanza</h3>
+                        <span>25 de mayo de 1977</span>
+                        <p>Nos encontramos en un
+                        periodo de guerra civil. Las
+                        naves espaciales rebeldes,
+                        atacando desde una base
+                        oculta, han logrado su 
+                        primera victoria contra
+                        el malvado Imperio
+                        Galáctico.
+                        
+                        Durante la batalla, los
+                        espías rebeldes han
+                        conseguido apoderarse de
+                        los planos secretos del
+                        arma total y definitiva del
+                        Imperio, la ESTRELLA
+                        DE LA MUERTE,
+                        una estación espacial
+                        acorazada, llevando en sí
+                        potencia suficiente para
+                        destruir a un planeta
+                        entero.
+                        
+                        Perseguida por los
+                        siniestros agentes del
+                        Imperio, la Princesa Leia
+                        vuela hacia su patria, a
+                        bordo de su nave espacial,
+                        llevando consigo los
+                        planos robados...</p>
+                        <div class="btn-read-more">
+                            <a target="_blank" href="https://starwars.fandom.com/es/wiki/Star_Wars:_Episodio_IV_Una_Nueva_Esperanza">Leer más</a>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/sw5.jpg" alt="El imperio contraataca">
+                        <div class="button-group-blog">
+                            <span><a target="_blank" href="https://www.google.com/search?q=star+wars+5+el+imperio+contraataca&sca_esv=1b97633427c5a4ec&sca_upv=1&sxsrf=ADLYWIKYF8Ml2Lex5bH8mvsGXBN-vADxzA%3A1714958023995&ei=xy44ZueqPOa95OUPtaWHwAs&gs_ssp=eJzj4tDP1TdIM841NGD0UiouSSxSKE8sKlYwVUjNUcjMLUgtysxXSM7PKylKTCxJTE4EAE4AD3U&oq=star+wars+5+el&gs_lp=Egxnd3Mtd2l6LXNlcnAiDnN0YXIgd2FycyA1IGVsKgIIADIFEC4YgAQyBhAAGBYYHjIGEAAYFhgeMggQABiABBiiBDIUEC4YgAQYlwUY3AQY3gQY4ATYAQFI-xZQvAVYow9wAXgBkAEAmAFgoAHVAqoBATS4AQPIAQD4AQGYAgWgAukCwgIKEAAYsAMY1gQYR8ICEBAuGIAEGLEDGEMYgwEYigXCAgUQABiABMICHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQHCAggQABgWGAoYHpgDAIgGAZAGCLoGBggBEAEYFJIHAzQuMaAH0B4&sclient=gws-wiz-serp"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                            <span><a target="_blank" href="https://www.mubis.es/titulos/star-wars-el-imperio-contraataca-edicion-metalica-blu-ray"><i class="fa-solid fa-link"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>El imperio contraataca</h3>
+                        <span>21 de mayo de 1980</span>
+                        <p>Son tiempos adversos para la
+                        rebelión. Aunque la Estrella de
+                        la Muerte ha sido destruida,
+                        las tropas imperiales han
+                        hecho salir a las fuerzas
+                        rebeldes de sus bases ocultas
+                        y las han perseguido a través de
+                        la galaxia.
+                        
+                        Tras escapar de la terrible
+                        Flota Imperial, un grupo de
+                        guerreros de la libertad,
+                        encabezados por Luke
+                        Skywalker, ha establecido
+                        una nueva base secreta
+                        en el remoto mundo helado
+                        de Hoth.
+                        
+                        El malvado Lord Darth Vader,
+                        obsesionado por encontrar al
+                        joven skywalker, ha eviado
+                        miles de sondas espaciales
+                        hacía las infinitas distancias
+                        del espacio....</p>
+                        <div class="btn-read-more">
+                            <a target="_blank" href="https://starwars.fandom.com/es/wiki/Star_Wars:_Episodio_V_El_Imperio_Contraataca">Leer más</a>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/sw6.jpg" alt="El retorno del Jedi">
+                        <div class="button-group-blog">
+                            <span><a target="_blank" href="https://www.google.com/search?q=star+wars+episodio+6+el+retorno+del+jedi&sca_esv=1b97633427c5a4ec&sca_upv=1&sxsrf=ADLYWIJtRpFZpEG-sGUhp63U2pEVb-6aEQ%3A1714958063784&ei=7y44Zvm8L6305OUP2bKbkAw&oq=star+wars+6+el+retorno+del&gs_lp=Egxnd3Mtd2l6LXNlcnAiGnN0YXIgd2FycyA2IGVsIHJldG9ybm8gZGVsKgIIADIGEAAYFhgeSMI5UNIHWPEycAN4AZABAJgBfqAB1wuqAQQxNS4yuAEDyAEA-AEBmAIUoAKGDMICChAAGLADGNYEGEfCAgsQLhiABBixAxiDAcICBRAAGIAEwgIGEAAYBxgewgIaEC4YgAQYsQMYgwEYlwUY3AQY3gQY4ATYAQHCAggQIRigARjDBMICBRAhGKABwgIFECEYnwXCAggQABiABBiiBJgDAIgGAZAGCLoGBggBEAEYFJIHBDE4LjKgB6tK&sclient=gws-wiz-serp"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                            <span><a target="_blank" href="https://www.mubis.es/titulos/star-wars-el-retorno-del-jedi-edicion-metalica-blu-ray"><i class="fa-solid fa-link"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>El retorno del Jedi</h3>
+                        <span>25 de mayo de 1983</span>
+                        <p>Luke Skywalker ha regresado a
+                        Tatooine, su planeta de origen,
+                        para intentar rescatar a su
+                        amigo Han Solo de las garras
+                        del malvado Jabba, el Hutt.
+                        
+                        Pero Luke ignora que el IMPERIO
+                        GALÁCTICO ha comenzado en
+                        secreto la construcción de una
+                        nueva estación espacial armada,
+                        la cual es mucho más poderosa 
+                        que la temida Estrella de la 
+                        Muerte que destruyó anteriormente.
+                        
+                        Una vez terminada, este
+                        arma suprema significará la
+                        aniquilación del pequeño grupo
+                        de rebeldes que lucha para
+                        restaurar la libertad en la
+                        galaxia....</p>
+                        <div class="btn-read-more">
+                            <a target="_blank" href="https://starwars.fandom.com/es/wiki/Star_Wars:_Episodio_VI_El_Retorno_del_Jedi">Leer más</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+
+        <button id="btn-generar">Generar Frase Aleatoria</button>
+    <footer id="footer">
+    <p id="frase"></p>
+    </footer>
+
+
+    <!--<footer>
+        <div class="footer">
+            <h3>Contacto</h3>
+            <div class="footer-redes">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a> 
+            </div>   
+        </div>        
+    </footer>-->
+
+    <script src="index.js"></script>
+</body>
+</html>
