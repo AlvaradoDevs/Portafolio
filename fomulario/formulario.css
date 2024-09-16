@@ -1,0 +1,232 @@
+/*--------------------VARIABLES DE COLOR-------------------*/
+:root {
+    --primary-color: #ff0000;
+    --background-color: #dfdfdf;
+    --dark-color: #000000;
+    --secundary-color: #242424;
+    --optional-color: #2d2b3c;
+ }
+ 
+ 
+ /*---------------------TODO EL DOCUMENTO-------------------*/
+ html {
+     font-size: 62.5%;
+     font-family: "Montserrat", sans-serif;
+ }
+ 
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+ }
+ 
+ ul,
+ ol {
+     list-style: none;
+  }
+ 
+ 
+  /*---------------------------HEADER-------------------------*/
+  .container-navbar {
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem; 
+  }
+ 
+  .navbar-icon i {
+    color: var(--background-color);
+    font-size: 35px;
+    font-weight: 600;
+  }
+ 
+  .navbar ul {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 700;
+    font-size: 18px;
+  }
+ 
+ .navbar ul li a {
+    color: var(--background-color);
+ }
+
+
+/*-------------------FORMS--------------------*/
+body {
+    background-image: url(/img/wp4.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container-form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+.span-contacto {
+    color: var(--dark-color);
+    font-size: 35px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 50px 0;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    font-size: small;
+    color: var(--background-color);
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.input-field .input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: var(--dark-color);
+    padding: 0 0 0 42px;
+}
+
+.input-field i {
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: var(--background-color);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(219, 217, 217);
+}
+
+.input-unfield {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-unfield label {
+    font-size: small;
+    color: var(--background-color);
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.input-unfield .input {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: var(--dark-color);
+    padding: 0 0 0 42px;
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: var(--primary-color);
+    cursor: pointer;
+    transition: .3s;
+    color: var(--background-color);
+    text-transform: uppercase;
+}
+
+.submit:hover {
+    background-color: var(--optional-color);
+}
+
+
+/*--------------------FOOTER------------------*/
+.footer  {
+    background-color: var(--dark-color);
+    color: var(--background-color);
+ }
+ 
+ .footer h3 {
+    font-size: 22px;
+    padding: 10px 0 0 15px;
+ }
+ 
+ .footer-redes {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ .footer-redes i {
+    text-align: center;
+    font-size: 40px;
+    color: var(--background-color);
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.40);
+    transition: 0.3 ease;
+ }
+ 
+ .fa-instagram:hover {
+    background-color: #E1306C;
+    color: var(--background-color);
+    box-shadow: 0 0 15px #E1306C,
+                0 0 45px #E1306C,
+                0 0 75px #E1306C,  
+                0 0 115px #E1306C;
+ }
+ 
+ .fa-facebook:hover {
+    background-color: #3b5998;
+    color: var(--background-color);
+    box-shadow: 0 0 15px #3b5998,
+                0 0 45px #3b5998,
+                0 0 75px #3b5998,
+                0 0 115px #3b5998;
+ }
+ 
+ .fa-whatsapp:hover {
+    background-color: #25D366;
+    color: var(--background-color);
+    box-shadow: 0 0 15px #25D366,
+                0 0 45px #25D366,
+                0 0 75px #25D366,
+                0 0 115px #25D366;
+ }
+
+ /*----------------MENU---------------*/
+#check {
+    display: none;
+ }
+ 
+ .checkbtn {
+    font-size: 25px;
+    color: var(--primary-color);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+ }
